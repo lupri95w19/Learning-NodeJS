@@ -7,4 +7,7 @@ Repo creata per mantenere una traccia del mio studio del framework Node.js. Quel
 </div>
 
 ## Importante!
-### Gli esempi sui moduli richiedono i file: "2_moduli.js, 2_nomi.js, 2_utils.js"
+### Gli esempi sui moduli richiedono i seguenti file:
+- `2_moduli.js`
+- `2_nomi.js`
+- `2_utils.js`
