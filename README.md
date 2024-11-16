@@ -18,3 +18,9 @@ Repo creata per mantenere una traccia del mio studio del framework Node.js. Quel
 - `2_moduli.js`
 - `2_nomi.js`
 - `2_utils.js`
+
+### Moduli built-in
+#### Gli esempi sui Moduli richiedono i seguenti file:
+- `3_moduliBuiltIn.js`
+- `3_cartella`
+- `3_prova.js (dentro 3_cartella)`
