@@ -113,13 +113,13 @@ Fine esempio moduli built-in */
 const { readFileSync, writeFileSync } = require("fs");
 
 // read e write hanno bisogno del path ma anche della codifica per gestire i caratteri
-const prova = readFileSync("./4_cartella/prova.txt", "utf-8");
-const ciao = writeFileSync("./4_cartella/ciao.txt", "utf-8");
+const prova = readFileSync("./4_cartella/4_prova.txt", "utf-8");
+const ciao = writeFileSync("./4_cartella/4_ciao.txt", "utf-8");
 
 //writeFileSync("./4_cartella/prova.txt", "Ciaoo"); // Così sovrascrivo il file
-writeFileSync("./4_cartella/prova.txt", " Ciaoo questo è con l'append", { flag: 'a' }); // Così scrivo sul file
+writeFileSync("./4_cartella/4_prova.txt", " Ciaoo questo è con l'append", { flag: 'a' }); // Così scrivo sul file
 
-writeFileSync("./4_cartella/fileNonEsistente.txt", "Questo file è stato creato con NodeJS"); // Se il file dovesse mancare, NodeJS lo creerà
+writeFileSync("./4_cartella/4_fileNonEsistente.txt", "Questo file è stato creato con NodeJS"); // Se il file dovesse mancare, NodeJS lo creerà
 Fine esempio FS File System sincrono*/
 
 
