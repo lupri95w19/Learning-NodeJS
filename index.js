@@ -125,7 +125,7 @@ Fine esempio FS File System sincrono*/
 
 
 // Metodo asincrono
-/* Inizio esempio FS File System asincrono 
+/* Inizio esempio FS File System asincrono
 const { readFile, writeFile } = require("fs");
 // Aggiungiamo al codice di prima la callback
 // Il funzionamento è diverso, qui abbiamo l'esecuzione del codice e quando poi finirà mi andrà in console log, non bloccherà l'esecuzione di altro codice
@@ -138,3 +138,49 @@ readFile("./4_cartella/prova.txt", "utf-8", (error, result) => {
 })
 
 Fine esempio FS File System asincrono */
+
+
+
+
+
+
+
+
+/*
+let c = 4;
+while (c != 0 && c != 1) {
+    c = Math.floor(Math.random() * 2);
+}
+console.log(c);
+*/
+
+
+
+
+
+
+
+
+
+// Moduli HTTP
+/* Inizio esempio Moduli HTTP
+// Servono per creare dei web server
+const http = require("http");
+const server = http.createServer((req, res) => { // request e response
+    // res.write("Benvenuto"); sostituito dal req url === "/"
+
+    // Routing
+    if (req.url === "/") {
+        res.end("benvenuto col routing");
+    }
+    else if (req.url === "/luca") {
+        res.end("Il profilo di Luca col routing");
+    }
+
+    else {
+        res.end("<h1>Errore</h1>");
+    }
+})
+server.listen(3000);
+// http://localhost:3000/ e avremo in pagina il contenuto del write, per chiudere il server basta fare CTRL+C sul terminale
+Fine esempio Moduli HTTP */
