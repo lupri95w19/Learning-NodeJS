@@ -184,3 +184,34 @@ const server = http.createServer((req, res) => { // request e response
 server.listen(3000);
 // http://localhost:3000/ e avremo in pagina il contenuto del write, per chiudere il server basta fare CTRL+C sul terminale
 Fine esempio Moduli HTTP */
+
+
+
+
+
+
+
+
+// Nodemon
+// npm init così creiamo il nostro pacchetto
+// Rimane sempre in ascolto per eventuali cambiamenti al codice e non dobbiamo fare nodejs nomefile
+// npm i nodemon --save-dev
+// Ovviamente bisogna avere npm installato
+/* Poi si va su package.json e su test bisogna mettere 
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+*/
+// Adesso npm start nel terminale
+// Adesso quando si salva, si riesegue il codice in automatico
+const prova = 4;
+
+
+
+
+
+
+
+
+
+// Event loop
