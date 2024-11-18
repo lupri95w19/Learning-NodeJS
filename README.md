@@ -27,3 +27,11 @@ Repo creata per mantenere una traccia del mio studio del framework Node.js. Quel
 - `3_moduliBuiltIn.js`
 - `3_cartella`
 - `3_prova.txt (dentro 3_cartella)`
+
+<h3></h3>
+<br>
+
+### Moduli FS
+#### Gli esempi sui Moduli FS richiedono il seguente file:
+- `4_cartella`
+Il resto lo creerà NodeJS in caso non abbiate i file txt 4_ 
