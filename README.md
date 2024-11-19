@@ -34,4 +34,12 @@ Repo creata per mantenere una traccia del mio studio del framework Node.js. Quel
 ### Moduli FS
 #### Gli esempi sui Moduli FS richiedono il seguente file:
 - `4_cartella`
-Il resto lo creerà NodeJS in caso non abbiate i file txt 4_ 
+Il resto lo creerà NodeJS in caso non abbiate i file txt 4_
+
+<h3></h3>
+<br>
+
+### Streams
+#### Gli esempi sugli streams richiedono il seguente file:
+- `5_cartella`
+Il resto lo creerà NodeJS in caso non abbiate i file txt 5_
