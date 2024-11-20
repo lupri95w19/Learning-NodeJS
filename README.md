@@ -47,6 +47,17 @@ Il resto lo creerà NodeJS in caso non abbiate i file txt 5_
 <h3></h3>
 <br>
 
+### Aggiungere file statici
+#### Gli esempi sull'ausilio dei file statici richiedono i seguenti file:
+- `public (è una cartella)`
+- `home.html`
+- `about.html`
+- `contacts.html`
+- `404.html`
+
+<h3></h3>
+<br>
+
 ### Usare i JSON
 #### Gli esempi sull'ausilio dei JSON richiedono i seguenti file:
 - `6_cartella`
