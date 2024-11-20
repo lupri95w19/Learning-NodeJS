@@ -43,3 +43,11 @@ Il resto lo creerà NodeJS in caso non abbiate i file txt 4_
 #### Gli esempi sugli streams richiedono il seguente file:
 - `5_cartella`
 Il resto lo creerà NodeJS in caso non abbiate i file txt 5_
+
+<h3></h3>
+<br>
+
+### Usare i JSON
+#### Gli esempi sull'ausilio dei JSON richiedono i seguenti file:
+- `6_cartella`
+- `6_persone.js`
