@@ -16,6 +16,14 @@
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 // Oggetti globali
 /* Inizio esempio oggetti globali
 
@@ -25,6 +33,14 @@ console.log("Filename: ", __filename); // Restituice la directory e il nome del 
 console.log("Process: ", process); // Ci permette di capire se stiamo lavorando in locale oppure in un server
 
 Fine esempio oggetti globali*/
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -72,6 +88,14 @@ Fine esempio moduli */
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 // Moduli built-in
 /* Inizio esempio moduli built-in
 // Consiglio altamente di guardare i file che iniziano con 3_
@@ -95,6 +119,14 @@ const percorsoAssoluto = path.resolve(__dirname, '3_cartella', 'sottocartella', 
 console.log("Il percorso assoluto è: ", percorsoAssoluto)
 
 Fine esempio moduli built-in */
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -144,6 +176,14 @@ Fine esempio FS File System asincrono */
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /*
 let c = 4;
 while (c != 0 && c != 1) {
@@ -151,6 +191,14 @@ while (c != 0 && c != 1) {
 }
 console.log(c);
 */
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -190,6 +238,14 @@ Fine esempio Moduli HTTP */
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 // Nodemon
 // npm init così creiamo il nostro pacchetto
 // Rimane sempre in ascolto per eventuali cambiamenti al codice e non dobbiamo fare nodejs nomefile
@@ -202,7 +258,15 @@ Fine esempio Moduli HTTP */
 */
 // Adesso npm start nel terminale
 // Adesso quando si salva, si riesegue il codice in automatico
-const prova = 4;
+// const prova = 4;
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -240,6 +304,14 @@ Fine esempio event emitters */
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 // Streams
 /* Inizio esempio streams
 // Sono dei flussi di dati
@@ -264,6 +336,14 @@ stream.on("data", (result) => {
 });
 console.log(fileGrande);
 Fine esempio streams */
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -320,6 +400,14 @@ fine esempio introduzione a Express */
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 // Aggiungere file statici
 // creare cartella public
 /* Inizio esempio aggiungere file statici
@@ -350,3 +438,46 @@ app.all("*", (req, res) => {
 
 app.listen(3000);
 Fine esempio esempio aggiungere file statici*/
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// Usare i JSON
+// La cartella 6_cartella è richiesta
+//  - API: Interfaccia per comunicare con il DB (json, res.json)
+//  - SSR: Server Side Rendering (template, ejs, res.render)
+// npm i ejs
+/* Inizio esempio usare i JSON
+
+const express = require("express");
+const app = express();
+
+// Qui si fa manualmente in pagina
+// app.get("/", (req, res) => {
+// 	res.json([
+// 		{ nome: "Luca", cognome: "Privitera" },
+// 		{ nome: "Anna", cognome: "Rossi" },
+// 	]);
+// });
+
+// Qui si prende da un altro file
+const { persone } = require("./6_cartella/6_persone");
+app.get("/", (req, res) => {
+	res.json(persone);
+});
+
+app.listen(3000);
+
+Fine esempio usare i JSON */
