@@ -322,6 +322,7 @@ fine esempio introduzione a Express */
 //
 // Aggiungere file statici
 // creare cartella public
+/* Inizio esempio aggiungere file statici
 const express = require("express");
 const app = express();
 app.use(express.static("public"));
@@ -348,3 +349,4 @@ app.all("*", (req, res) => {
 });
 
 app.listen(3000);
+Fine esempio esempio aggiungere file statici*/
