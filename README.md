@@ -63,7 +63,7 @@ Il resto lo creerà NodeJS in caso non abbiate i file txt 5_
 - `6_cartella`
 - `6_persone.js`
 
-- <h3></h3>
+<h3></h3>
 <br>
 
 ### Middleware
