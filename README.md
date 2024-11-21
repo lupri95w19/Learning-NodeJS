@@ -62,3 +62,11 @@ Il resto lo creerà NodeJS in caso non abbiate i file txt 5_
 #### Gli esempi sull'ausilio dei JSON richiedono i seguenti file:
 - `6_cartella`
 - `6_persone.js`
+
+- <h3></h3>
+<br>
+
+### Middleware
+#### Gli esempi sull'ausilio dei Middleware richiedono i seguenti file:
+- `8_cartella`
+- `middlewareProvaEsportato.js`
